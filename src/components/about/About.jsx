@@ -2,7 +2,7 @@ import { Avatar, Box, Button, Container, HStack, Heading, Stack, Text, VStack } 
 import React from 'react'
 import { Link } from 'react-router-dom'
 import introVideo from '../../assets/videos/intro.mp4'
-import myAvatar from '../../assets/images/mypic.jpeg'
+import myAvatar from '../../assets/images/mypic.png'
 import { RiSecurePaymentFill } from 'react-icons/ri'
 import termsAndConditions from '../../assets/docs/termsAndCondition'
 
