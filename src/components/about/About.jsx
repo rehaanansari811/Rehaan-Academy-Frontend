@@ -7,16 +7,16 @@ import { RiSecurePaymentFill } from 'react-icons/ri'
 import termsAndConditions from '../../assets/docs/termsAndCondition'
 
 const Founder = () => (
-    <Stack direction={['column', 'row']} spacing={['4', '16']} padding={'8'} >
-        <VStack>
+    <Stack direction={['column', 'row']} spacing={['4', '16']} padding={'8'}>
+        <VStack alignItems={['center']}>
             <Avatar boxSize={['40', '48']} src={myAvatar} />
             <Text children="Co-Founder" opacity={'.9'} />
         </VStack>
-        <VStack justifyContent={'center'} alignItems={['center', 'flex-start']}>
+        <VStack justifyContent={['left','center']} alignItems={['center', 'flex-start']}>
             <Heading children="Rehaan Ansari" size={['md', 'xl']} />
             <Text
-                textAlign={['center', 'left']}
-                children={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis ipsam rerum totam."}
+                textAlign={['center','left']}
+                children={"Experienced web developer with a passion for crafting seamless, visually appealing websites and enhancing user experiences."}
             />
         </VStack>
     </Stack>
@@ -59,7 +59,7 @@ const TandC = ({ termsAndConditions }) => (
 )
 const About = () => {
     return (
-        <Container maxW={'container.lg'} padding={'16'} boxShadow={'lg'}>
+        <Container maxW={'container.lg'} padding={['8','16']} boxShadow={'lg'}>
             <Heading children='About Us' textAlign={['center', 'left']} pl={[0, 10]} />
             <Founder />
             <Stack m={8} direction={['column', 'row']} alignItems={'center'}>

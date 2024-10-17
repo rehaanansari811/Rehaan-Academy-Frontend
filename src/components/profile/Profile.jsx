@@ -107,7 +107,7 @@ const Profile = ({ user }) => {
           </Button>
         </VStack>
 
-        <VStack spacing={4} alignItems={['center', 'flex-start']}>
+        <VStack spacing={4} alignItems={['left', 'flex-start']}>
           <HStack>
             <Text children={'Name'} fontWeight={'bold'} />
             <Text children={user.name} />
@@ -143,7 +143,7 @@ const Profile = ({ user }) => {
               )}
             </HStack>
           )}
-          <Stack direction={['column', 'row']} alignItems={'center'}>
+          <Stack direction={['column', 'row']} alignItems={'left'}>
             <Link to="/updateProfile">
               <Button>Update Profile</Button>
             </Link>

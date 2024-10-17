@@ -20,7 +20,7 @@ const Home = () => {
                     spacing={["16", '56']}
                 >
                     <VStack width={'full'} alignItems={['center', 'flex-end']} spacing={5}>
-                        <Heading size={'2xl'} children="LEARN FROM THE EXPERTS" />
+                        <Heading size={['xl','2xl']} children="LEARN FROM THE EXPERTS" textAlign={'center'}/>
                         <Text
                             children="Find Valuable Content At Reasonable Price"
                             textAlign={['center','left']}
